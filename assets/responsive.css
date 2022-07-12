@@ -1,0 +1,42 @@
+@media only screen and (min-width: 980px) and (max-width: 1200px) {
+    .content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .content-left {
+        position: static;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 700px;
+        margin-top: 100px;
+    }
+    .content-right {
+        position: static;
+        max-width: 100%;
+        margin-left: 0;
+        padding : 0 20px;
+        margin-top: 30px;
+    }
+    .side-bar {
+        /* display: none; */
+    }
+
+    .container .header {
+        display: flex;
+        gap : 30px;
+    }
+    .container .header input {
+        
+    }
+    
+
+    .container .header .tools i {
+        /* display : none */
+    }
+    .container  .bars {
+        display: block;
+    }
+}
